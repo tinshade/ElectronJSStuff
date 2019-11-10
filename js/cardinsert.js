@@ -126,7 +126,7 @@ btnNow.addEventListener('click', () =>{
       document.getElementById("inputspace").style.display = "none";
       document.getElementById("waiting").style.display = "block";
       sleep(2500).then(() => {
-        document.getElementById("sortedarray").innerHTML = insertionSort(inparr);
+        insertionSort(inparr);
         document.getElementById("waiting").style.display = "none";
         document.getElementById("results").style.display = "block";
       })
