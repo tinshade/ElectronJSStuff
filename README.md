@@ -20,8 +20,13 @@ Direct Download LINK for Windows(From Google Drive) : http://gestyy.com/w5KCiy
 
 # References & Guidances 
 Electron JS : https://github.com/electron/
+
 BootStrap 4 : https://getbootstrap.com/
+
 Node JS: https://nodejs.org/
+
 Electron JS Quick Starter Template: https://github.com/electron/electron-quick-start
+
 Definition : https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm
+
 Complexities : https://en.wikipedia.org/wiki/Insertion_sort#Best,_worst,_and_average_cases
