@@ -1,0 +1,30 @@
+{
+  "name": "cardsort",
+  "version": "1.0.0",
+  "description": "A quick insertion sort demonstration",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/tinshade/",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo",
+    "insertion",
+    "sort",
+    "analysis",
+    "algorithms"
+
+  ],
+  "author": "Abhishek Iyengar",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.1"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

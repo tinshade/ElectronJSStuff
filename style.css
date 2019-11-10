@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Comfortaa', cursive;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  text-decoration: none;
+  color: #ff4400;
+}
+.box{
+	background-color: rgba(0,0,0,0.5);
+	color: cornsilk;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.box h1{
+	font-size: 3rem;
+	z-index: 2;
+	text-shadow: 2px 1px 5px #000;
+	position: relative;
+	top: -135px
+}
+
+/*IMAGE HOVER EFFECT*/
+.wrap{
+	overflow: hidden;
+}
+.zoom{
+	position: relative;
+	z-index: 1;
+	top: 25px;
+	transition: transform 200ms linear;
+}
+.zoom:hover{
+	transform: scale(1.15);
+}
+.center {
+  margin: auto;
+  width: 50%;
+}
+.col-6{
+	margin: 0px;
+	padding: 2px;
+}
+
+/*BUTTONS AND INPUT FIELDS*/
+.btn {
+  /* width: 100px; */
+  height: 45px;
+  letter-spacing: 2.5px;
+  color: #fff;
+  background-color: #ff4d00;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-left: 4px;
+}
+
+.btn:hover {
+  background-color: #ff4d00;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+.inpdes{
+  width: 70%;
+  text-decoration: none;
+  color: #ff4400;
+  border: none;
+  border-bottom: 2px solid #ff4d00;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding: 10px; 
+  height: 45px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.backarrow{
+  position: fixed;
+  top:2%;
+  left: 2%;
+  z-index: 999999;
+  color: #ff4400;
+}
+
+.gifbg{
+  background-image: url(images/insertgif.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.primary{
+  padding-top: 15px;
+  margin-bottom: 5px;
+  font-size: 3rem;
+  color: #ff4d00;
+  -webkit-text-shadow: 10px 13px 25px -17px rgba(0,0,0,0.75);
+  -moz-text-shadow: 10px 13px 25px -17px rgba(0,0,0,0.75);
+  text-shadow: 10px 13px 25px -17px rgba(0,0,0,0.75);
+
+}
+b{
+  background-color: #ff4400;
+  color: cornsilk;
+  padding: 10px;
+  -webkit-text-shadow: 10px 13px 25px -17px rgba(0,0,0,0.75);
+  -moz-text-shadow: 10px 13px 25px -17px rgba(0,0,0,0.75);
+  text-shadow: 10px 13px 25px -17px rgba(0,0,0,0.75);
+}

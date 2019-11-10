@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>About CardSort</title>
+  </head>
+<body>
+    <a href="index.html" title="Back to Index Page" class="backarrow float-left"><i class="fas fa-arrow-left"></i></a>
+    <section class="text-center" style="background-image: url(images/logo.png); background-repeat: no-repeat; background-position: center">
+        <h1 class="primary text-center">INTRODUCTION</h1>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <div class="container col-8" style="background-color: rgba(255,255,255,0.3);">
+            <div class="container-fluid">
+                <h3 style="color: #ff4400">About Insertion Sort</h3>
+                <br>
+                <hr>
+                <br>
+                <p>
+                    This is an in-place comparison-based sorting algorithm. Here, a sub-list is maintained which is always sorted. For example, the lower part of an array is maintained to be sorted. An element which is to be 'insert'ed in this sorted sub-list, has to find its appropriate place and then it has to be inserted there. Hence the name, insertion sort.
+                    <br>
+                    The array is searched sequentially and unsorted items are moved and inserted into the sorted sub-list (in the same array). This algorithm is not suitable for large data sets as its average and worst case complexity are of Ο(n<sup>2</sup>), where n is the number of items.
+                </p>
+                <br>
+                <hr>
+                <br>
+                <b>Best Case</b>
+                <br>
+                <br>
+                <br>
+                <p>
+                    The best case input is an array that is already sorted. In this case insertion sort has a linear running time (i.e., O(n)). During each iteration, the first remaining element of the input is only compared with the right-most element of the sorted subsection of the array.
+                </p>
+                <br>
+                <br>
+                <b>Average Case</b>
+                <br>
+                <br>
+                <br>
+                <p>
+                    The simplest worst case input is an array sorted in reverse order. The set of all worst case inputs consists of all arrays where each element is the smallest or second-smallest of the elements before it. In these cases every iteration of the inner loop will scan and shift the entire sorted subsection of the array before inserting the next element. This gives insertion sort a quadratic running time (i.e., O(n<sup>2</sup>)).
+                </p>
+                <br>
+                <br>
+                <b>Worst Case</b>
+                <br>
+                <br>
+                <br>
+                <p>
+                    The average case is also quadratic, which makes insertion sort impractical for sorting large arrays. However, insertion sort is one of the fastest algorithms for sorting very small arrays, even faster than quicksort; indeed, good quicksort implementations use insertion sort for arrays smaller than a certain threshold, also when arising as subproblems; the exact threshold must be determined experimentally and depends on the machine, but is commonly around ten.
+                </p>
+                <br>
+            </div>
+            <div class="container-fluid text-center">
+                <h3 style="color: #ff4400">EXAMPLE</h3>
+                <br>
+                <p> Here's a quick example of the internal working of <span style="color: #ff4400">INSERTION SORT</span>
+                <br>
+                <img src = 'images/insertgif.gif'>
+            </div>
+
+            <div class="container-fluid mb-5">
+                <h3 style="color: #ff4400">Why CardSort</h3>
+                <br>
+                <hr>
+                <br>
+                <p>
+                    CardSort is a GUI representation/Demo of the Insertion Sort made entirely with JavaScript.
+                    It is a quick, simple presentation software made for an academic presentation for <i style="color: #ff4400">Analysis Of Algoritms and Researching Computing</i> subject under the guidance of <i style="color: #ff4400">Prof. Karishma Jain</i>.
+                </p>
+            </div>
+            <div class="container-fluid" style="justify-content: space-between;">
+              <a href="https://facebook.com/iyengar.abhi" target="_blank" style="color: #ff4400" class="p-4" title="Befriend me on Facebook"><i class="fab fa-facebook fa-lg"></i></a>
+              <a href="https://twitter.com/Tin_Shade" class="p-4" target="_blank" style="color: #ff4400" title="Tweet me on Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+              <a href="https://www.youtube.com/channel/UCoKvMf0XfGYSuujgL6dFSeA" class="p-4" target="_blank" style="color: #ff4400" title="Code on Github"><i class="fab fa-github fa-lg"></i></a>
+              <a href="https://github.com/tinshade/ElectronJSStuff/blob/CardSort/" class="p-4" target="_blank" style="color: #ff4400" title="Watch Demo on Youtube"><i class="fab fa-youtube fa-lg"></i></a>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+</body>
+</html>
