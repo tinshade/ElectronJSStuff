@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -14,14 +13,14 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css"/>
 
-    <title>Let's SORT | CardSort</title>
+    <title>Card Version | CardSort</title>
   </head>
   <body>
     <a href="index.html" title="Back to Index Page" class="backarrow float-left"><i class="fas fa-arrow-left"></i></a>
     <div class="container col-12 p-5 text-center">
       <div class="container mt-5" id="inputspace" style="display: block">
         <h5>You can have upto 13 cards</h5>
-        <small class="text-muted">We are using the <i style="color: red">♥</i> suite</small>
+        <small class="text-muted">We are using the <span class="fas fa-heart" style="color: red"></span> suite</small>
         <br>
         <small class="text-muted" >Press enter or click the add button to enter the number</small>
         <br>
@@ -32,7 +31,7 @@
         <input autofocus type="number" class="inpdes" id="numbers" placeholder="Enter a number and press enter" />
         <button id="btnAdd" class="btn" title="Add the number to the list! (Enter)"> <i class="fas fa-plus"></i></button>
         <button id="btnClear" class="btn" style="background-color: red" title="Clear the list! (Ctrl + C)"> <i class="fas fa-times"></i></button>
-        <button id="btnPop" class="btn" style="background-color: red" title="Delete the last element (Bkspc)"> C </button>
+        <button id="btnPop" class="btn" style="background-color: red" title="Delete the last element (Ctrl + Bkspc)"> C </button>
         <br>
         <button id="btnNow" class="btn" style="background-color: green" title="Start sorting now! (Ctrl + Enter)">SORT</button>
         <hr>
