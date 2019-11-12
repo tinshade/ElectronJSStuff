@@ -9,6 +9,7 @@ The array is searched sequentially and unsorted items are moved and inserted int
 
 # Downloads
 Direct Download LINK for Windows(From Google Drive) : http://gestyy.com/w5K278
+Direct Download LINK for Linux(From Google Drive) : http://gestyy.com/w5XzLp
 
 # Pre-requisites
 1. NodeJS
