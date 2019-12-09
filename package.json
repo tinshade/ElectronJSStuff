@@ -1,0 +1,27 @@
+{
+  "name": "material-calculator",
+  "version": "1.0.0",
+  "description": "A minimal, material ElectronJS Calculator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "java",
+    "script",
+    "js",
+    "javascript",
+    "material",
+    "Calculator",
+    "basic",
+    "simple",
+    "working"
+  ],
+  "author": "Abhishek Iyengar",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.3"
+  }
+}
